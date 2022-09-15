@@ -2,21 +2,21 @@
 - include_role:
     name: microk8s
 
-- include_role:
-    name: dt-activegate
+# - include_role:
+#     name: dt-activegate
 
 - include_role:
     name: dt-oneagent
 
-- include_role:
-    name: monaco
+# - include_role:
+#     name: monaco
 
 - include_role:
     name: app-easytravel
 
-- include_role:
-    name: app-easytravel
-    tasks_from: apply-monaco
+# - include_role:
+#     name: app-easytravel
+#     tasks_from: apply-monaco
 
 # - include_role:
 #     name: app-easytravel
